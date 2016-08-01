@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 ENV TEAM_CITY_VERSION 10.0
 ENV TEAMCITY_DATA_PATH /opt/teamcity-data
