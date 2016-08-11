@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV TEAM_CITY_VERSION 10.0
+ENV TEAM_CITY_VERSION 10.0.1
 ENV TEAMCITY_DATA_PATH /opt/teamcity-data
 ENV JDBC_NAME postgresql-9.3-1102.jdbc41.jar
 
