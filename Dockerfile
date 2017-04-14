@@ -9,7 +9,6 @@ RUN apt-get install -y wget default-jre
 RUN mkdir /opt/teamcity
 RUN wget -q -O - https://download-cf.jetbrains.com/teamcity/TeamCity-$TEAM_CITY_VERSION.tar.gz | tar xzf - -C /opt/teamcity
 RUN wget -q http://jdbc.postgresql.org/download/$JDBC_NAME -P /tmp
-RUN wget -q http://teamcity.jetbrains.com/repository/download/TeamCityPluginsByJetBrains_TeamCitySonarQubePlugin_Build100x/.lastPinned/sonar-plugin.zip -P /tmp
 
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
