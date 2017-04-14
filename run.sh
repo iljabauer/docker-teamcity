@@ -12,5 +12,4 @@ if [ -n "$DB_HOST" ]; then
 fi
 
 cp /tmp/$JDBC_NAME $TEAMCITY_DATA_PATH/lib/jdbc/$JDBC_NAME
-cp /tmp/sonar-plugin.zip $TEAMCITY_DATA_PATH/plugins
 /opt/teamcity/TeamCity/bin/teamcity-server.sh run
